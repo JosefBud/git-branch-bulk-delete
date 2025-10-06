@@ -2,6 +2,7 @@
   "name": "git-branch-bulk-delete",
   "module": "index.ts",
   "type": "module",
+  "license": "CC-BY-NC-4.0",
   "scripts": {
     "start": "bun run index.ts",
     "dev": "bun --watch run index.ts",

@@ -13,9 +13,6 @@ if [[ "$1" == "$HOME"/* ]]; then
   SHELL_CONFIG_SHORTENED_PATH="~${SHELL_CONFIG_PATH#$HOME}"
 fi
 
-echo $SHELL_CONFIG_PATH
-echo $SHELL_CONFIG_SHORTENED_PATH
-
 # Prompt for alias name
 printf '\n\033[0;31mWhat do you want the alias to be?\033[0m\n'
 read name
